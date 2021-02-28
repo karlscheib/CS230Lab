@@ -1,3 +1,6 @@
+<?php
+require 'includes/header.php';
+?>
 <body>
     <link rel="stylesheet" href="css/about.css">
 
@@ -13,7 +16,7 @@
                     <h2>Lead Director</h2>
                     <p>Henry of Skalitz</p>
                     <p>whereismysword@gmail.com</p>
-                </div>
+                </div>html
             </div>
         </div>
         <div class="column">
