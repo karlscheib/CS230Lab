@@ -6,7 +6,7 @@ $id = $_GET['id'];
 $sqlAvg = "SELECT AVG(ratingnum) AS AVGRATE FROM reviews WHERE itemid='$id' ORDER BY revdate DESC LIMIT 5";
 $sqlCount = "SELECT count(ratingnum) AS Total FROM reviews WHERE itemid='$id';";
 
-$query = myqli_query($conn, $sqlAvg);
+$query = mysqli_query($conn, $sqlAvg);
 $query2 = mysqli_query($conn, $sqlCount);
 
 $row = mysqli_fetch_array($query);

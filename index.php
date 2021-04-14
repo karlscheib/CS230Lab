@@ -16,7 +16,7 @@ require 'includes/header.php';
                     <h2>Lead Director</h2>
                     <p>Henry of Skalitz</p>
                     <p>whereismysword@gmail.com</p>
-                </div>html
+                </div>
             </div>
         </div>
         <div class="column">

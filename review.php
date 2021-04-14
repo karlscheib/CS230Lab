@@ -20,7 +20,7 @@ require 'includes/review-helper.php';
                 <div class="form-group" style="margin-top: 15px;">
                     <label class="title-label" for="review-title"
                         style="font-size: 16px; font-weight: bold;">Title</label>
-                    <input type="text" name="review-title" id="review-title" style="width: 100px; margin-bottom: 10px;">
+                    <input type="text" name="review-title" id="review-title" style="width: 100%; margin-bottom: 10px;">
                     <textarea name="review" id="review-text" cols="50" rows="3"
                         placeholder="Enter a comment..."></textarea>
 
